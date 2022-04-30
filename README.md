@@ -83,7 +83,7 @@ docker run -d \
   --env AWS_ACCESS_KEY_ID=awsaccesskeyid \
   --env AWS_SECRET_ACCESS_KEY=awssecretaccesskey \
   --env AWS_DEFAULT_REGION=us-east-1 \
-  wworrall/backup-postgres-to-s3
+  wworrall/backup-postgres-to-s3:14
 ```
 
 # Acknowledgements
