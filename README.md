@@ -2,7 +2,7 @@
 
 Backup a Postgres Database to Amazon S3 (or S3 compatible storage provider) using `pg_dump` and AWS CLI utility (`aws s3 mv`).
 
-Currently only supports PostgreSQL Client 14.
+This branch supports PostgreSQL Client 14.
 
 Homepage: https://github.com/wworrall/backup-postgres-to-s3
 
