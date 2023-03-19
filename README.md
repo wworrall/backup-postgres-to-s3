@@ -2,7 +2,7 @@
 
 Backup a Postgres Database to Amazon S3 (or S3 compatible storage provider) using `pg_dump` and AWS CLI utility (`aws s3 mv`).
 
-This branch supports PostgreSQL Client 14.
+This branch supports PostgreSQL Client 15.
 
 Homepage: https://github.com/wworrall/backup-postgres-to-s3
 
@@ -83,7 +83,7 @@ docker run -d \
   --env AWS_ACCESS_KEY_ID=awsaccesskeyid \
   --env AWS_SECRET_ACCESS_KEY=awssecretaccesskey \
   --env AWS_DEFAULT_REGION=us-east-1 \
-  wworrall/backup-postgres-to-s3:14
+  wworrall/backup-postgres-to-s3:15
 ```
 
 # Acknowledgements

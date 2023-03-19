@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 RUN sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list' \
   && wget -q -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add - \
   && apt-get update \
-  && apt-get install -y postgresql-client-14
+  && apt-get install -y postgresql-client-15
 
 # create the log file to be able to run tail
 RUN touch /var/log/cron.log
